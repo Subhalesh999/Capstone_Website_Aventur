@@ -10,3 +10,23 @@ border-radius: 2%;
 .row{
     margin: 0px !important;
 }
+
+.blue-text {
+    font-family: Arial, sans-serif;
+    color: blue;
+    padding: 10px; 
+   
+}
+
+.custom-text {
+    font-family: Arial, sans-serif;
+    color: #007acc;
+    font-size: 18px;
+    padding: 10px; 
+}
+.blue-background {
+    background-color: rgb(237, 240, 128); 
+    color: white; 
+    padding: 10px; 
+}
+
