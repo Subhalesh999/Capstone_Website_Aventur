@@ -1,0 +1,19 @@
+#milestones{
+    margin-top: 5%;
+}
+.row{
+    margin: 0px !important;
+}
+.heading{
+    color: blue;
+}
+.done{
+color: green;
+}
+
+.late{
+    color: orange;
+}
+.pending{
+    color: red;
+}

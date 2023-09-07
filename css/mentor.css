@@ -1,0 +1,89 @@
+body {
+    background: hsl(210, 46%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-preview {
+    background-image: url(https://github.com/lynnecodes/FM-articlepreviewcomponent/blob/master/images/drawers.jpg?raw=true);
+    background-size: cover;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.right-preview {
+    font-size: 18px;
+    padding: 50px;
+    font-family: 'Manrope', sans-serif;
+    color: hsl(214, 17%, 51%);
+    font-weight: 3s00;
+}
+
+.right-preview h2 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 350;
+}
+
+.right-preview p {
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.author {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-gap: 10px;
+    margin: auto;
+}
+
+.preview {
+    background: white;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 10px;
+    width: auto;
+    border-radius: 32px;
+    box-shadow: 10px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.name h4{
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 160px;
+    padding-top: 7px;
+    margin-left: 45px;
+}
+
+.icons{
+    margin: auto;
+    margin-top: 185px;
+    margin-left: -110px;
+}
+
+.name p {
+    margin: 0px;
+}
+
+.avatar img {
+    margin-top: 5px;
+    border-radius: 100%;
+    width: 150px;
+    margin-left: 85px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
