@@ -1,3 +1,4 @@
+
 /**
 {
 	margin: 0;
@@ -7,10 +8,18 @@
 
 #team{
     margin-top: 5%;
+
+}
+
+.peers{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .team-section
 {
+	display: flex;
+	flex-wrap: wrap;
 	background: #f1f2f6;
 	text-align: center;
 }
@@ -35,6 +44,7 @@
 
 .pe
 {
+	flex: 1;
 	float: left;
 	width: calc(100% / 4);
 	overflow: hidden;
@@ -87,7 +97,7 @@
 
 .p-sm a i
 {
-	color: #333;
+	color: #8f8888;
 	line-height: 30px;
 }
 
@@ -106,3 +116,74 @@
 		width: 100%;
 	}
 }
+
+
+
+
+/* Styling for the team section */
+#team {
+	background-color: #faf3f3; /* Black background */
+	color: #fff; /* White text color */
+	padding: 40px 0;
+	text-align: center;
+  }
+  
+  /* Styling for the team section heading */
+  #team h2 {
+	font-size: 28px;
+  }
+  
+  /* Styling for the team members */
+  .team-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-top: 20px;
+  }
+  
+  /* Styling for individual team members */
+  .pe {
+	background-color: #fcfefd; /* Dark gray background */
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	width: 250px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Styling for team member images */
+  .pe img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 10px;
+  }
+  
+  /* Styling for team member names */
+  .p-name {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  /* Styling for team member descriptions */
+  .p-des {
+	font-size: 14px;
+	margin-bottom: 10px;
+  }
+  
+  /* Styling for social media links */
+  .p-sm a {
+	color: #fff; /* White social media icons */
+	font-size: 20px;
+	margin: 0 5px;
+  }
+  
+  /* Hover effect for social media links */
+  .p-sm a:hover {
+	color: #007bff; /* Blue on hover */
+  }
+  
