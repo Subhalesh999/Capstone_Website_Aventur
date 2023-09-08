@@ -1,5 +1,5 @@
 body {
-    background: hsl(210, 46%, 95%);
+    background: hsl(210, 24%, 92%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,49 +16,51 @@ body {
 }
 
 .right-preview {
-    font-size: 18px;
+    font-size: 20px;
     padding: 50px;
     font-family: 'Manrope', sans-serif;
-    color: hsl(214, 17%, 51%);
+    color: hsl(216, 88%, 3%);
     font-weight: 3s00;
 }
 
 .right-preview h2 {
-    color: hsl(217, 19%, 35%);
+    color: hsl(218, 90%, 4%);
     font-weight: 350;
 }
 
 .right-preview p {
     line-height: 20px;
     padding-bottom: 10px;
+    padding-right: 4%;
 }
 
 .author {
     display: grid;
-    grid-template-columns: 50px 1fr 50px;
+    grid-template-columns: 70px 1fr 50px;
     grid-gap: 10px;
     margin: auto;
 }
 
 .preview {
-    background: white;
+    background: rgb(237, 243, 239);
     display: grid;
     grid-template-columns: 35% 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     width: auto;
-    border-radius: 32px;
-    box-shadow: 10px;
+    border-radius: 40px;
+    box-shadow: 15px;
     margin: auto;
     margin-top: 3%;
 }
 
 .name h4{
-    color: hsl(217, 19%, 35%);
+    color: hsl(217, 53%, 28%);
     font-size: 15px;
     font-weight: 700;
     margin-top: 160px;
     padding-top: 7px;
     margin-left: 45px;
+    margin-right: 45px;
 }
 
 .icons{
@@ -75,15 +77,17 @@ body {
     margin-top: 5px;
     border-radius: 100%;
     width: 150px;
-    margin-left: 85px;
+    margin-left: 100px;
 }
 
 .attribution { 
-    font-size: 11px; 
-    text-align: center;
-    padding: 10px;
+    font-size: 15px; 
+    text-align: justify ;
+    padding: 15px;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 48%, 25%); 
 }
+
+
