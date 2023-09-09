@@ -1,6 +1,5 @@
-#milestones{
-    margin-top: 5%;
-}
+
+
 .row{
     margin: 0px !important;
 }
@@ -17,3 +16,54 @@ color: green;
 .pending{
     color: red;
 }
+/* Styling for the section */
+#milestones {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+  }
+  
+  /* Styling for the title */
+  #milestones p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the table */
+  .table {
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Styling for table headers */
+  .table thead th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Styling for table rows */
+  .table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the status cells */
+  .alert {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Add some spacing between the rows */
+  .table tbody tr:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
