@@ -14,7 +14,8 @@ border-radius: 2%;
 .blue-text {
     font-family: Arial, sans-serif;
     color: blue;
-    padding: 10px; 
+    padding: 10px;
+    text-align: justify; 
    
 }
 
@@ -22,8 +23,10 @@ border-radius: 2%;
     font-family: Arial, sans-serif;
     color: #007acc;
     font-size: 18px;
-    padding: 10px; 
+    padding: 10px;
+    text-align: justify;
 }
+
 .blue-background {
     background-color: rgb(237, 240, 128); 
     color: white; 
